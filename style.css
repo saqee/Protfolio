@@ -40,12 +40,15 @@ p{
     background-image: url('images/latest-work-bg.png');
     background-repeat:no-repeat ;
     height: 500px;
+    margin-left: 10px;
 }
 .exp1{
-    width: 28%;
+    width: 30%;
     float: left;
-    margin: 7px;
-
+    margin: 15px;
+    transition: 2s;
+    box-shadow: 7px 7px 40px #003E51;
+    
 }
 .cv{
     background-color: #003E51;
@@ -61,6 +64,6 @@ p{
 .exp1:hover{
     background-color:#003E51 ;
     width: 400px;
-    height: 200px;
+    height: 300px;
     border:3px solid #ffff;
 }
